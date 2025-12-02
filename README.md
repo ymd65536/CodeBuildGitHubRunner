@@ -1,4 +1,4 @@
-# 【GitHub】GitHub Actionsが利用できないならCodeBuildでGitHub Actionsすればいいじゃないか
+# 【GitHub】GitHub Actionsが利用できないならCodeBuildでGitHub Actionsすればいいじゃないか？!
 
 ## この記事のポイント
 
@@ -10,7 +10,14 @@
 主な内容としては実践したときのメモを中心に書きます。（忘れやすいことなど）
 誤りなどがあれば修正していく想定です。
 
-## CodeBuildが利用できるならGitHub Actionsを使おう
+## 結論：GitHub ActionsランナーをCodeBuildで実行すれば良い
+
+## おおまかな手順
+
+- PATを作成する
+- CodeBuildにPATを登録する
+- buildspec.yamlを作成する
+- Buildをスタート
 
 ## まとめ
 
